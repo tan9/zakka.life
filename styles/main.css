@@ -20,7 +20,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 447px) {
   body {
     background-size: contain;
   }
