@@ -16,7 +16,7 @@ body {
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   body {
     background-image: url("/images/background@2x.jpeg");
-    background-size: 50%;
+    background-size: 447px;
   }
 }
 
