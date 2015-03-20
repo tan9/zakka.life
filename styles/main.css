@@ -6,21 +6,22 @@ body {
   min-height: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("images/background.jpg");
+  background-image: url("/images/background.jpeg");
   background-repeat: no-repeat;
   background-position: right bottom;
-  
+
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  body {
+    background-image: url("/images/background@2x.jpeg");
+    background-size: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   body {
     background-size: contain;
-  }
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  body {
-    background-image: url('images/background@2x.jpg');
   }
 }
