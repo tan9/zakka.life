@@ -1,3 +1,8 @@
+.jf-loading body {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .jf-active *, .jf-inactive * {
   -webkit-transition: opacity 1s ease-out;
   -moz-transition: opacity 1s ease-out;
