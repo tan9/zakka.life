@@ -10,29 +10,6 @@
   transition: opacity 0.3s ease-out;
 }
 
-html {
-  height: 100%;
-}
-
-body {
-  min-height: 100%;
-  padding: 0;
-  margin: 0;
-  background-image: url("/images/YIH_2971.jpg");
-  background-size: cover;
-  background-position: right top;
-
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  body {
-    background-image: url("/images/YIH_2971@2x.jpg");
-  }
-}
-
-@media screen and (max-width: 447px) , screen and (max-height: 490px) {
-  body {
-    
-  }
+.parallax-container {
+  height: 100vh;
 }

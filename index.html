@@ -12,23 +12,21 @@
   <link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <header class="row">
-      <h1 class="wcl-02">小戶人家</h1>
-    </header>
-    <div>
-      <atricle class="sourcehansans-tc-light">
-        <p>
-          網站籌備中... 先到我們的
-          <a href="https://www.facebook.com/ttsd.flower" style="color: #3b5998; background-color: #eee">Facebook 粉絲頁</a>
-          來看看!
-        </p>
-        <p>
-          也歡迎來小戶人家
-          <a href="https://tw.bid.yahoo.com/tw/booth/Y1731608097" style="color: #400090; background-color: #eee">Yahoo! 奇摩拍賣 賣場</a>
-          尋寶。
-        </p>
-      </atricle>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img class="responsive-img" src="images/YIH_2971.jpg" alt="shop image">
+    </div>
+  </div>
+  <div class="section blue lighten-5">
+    <div class="row container">
+      <h1 class="header wcl-02">小戶人家</h1>
+      <div class="divider"></div>
+      <span style="font-size: 40px;" class="grey-text text-darken-2 wcl-02">生活應該是<span class="red-text text-darken-4">簡單</span>的</span>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img class="responsive-img" src="images/YIH_3124.jpg" alt="zakkas">
     </div>
   </div>
 
@@ -43,6 +41,11 @@
 
     ga('create', 'UA-61045490-1', 'auto');
     ga('send', 'pageview');
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
   </script>
 </body>
 </html>
