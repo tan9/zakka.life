@@ -10,6 +10,15 @@
   transition: opacity 0.3s ease-out;
 }
 
+address {
+  font-style: normal;
+}
+
 .parallax-container {
   height: 100vh;
+}
+
+.social-icon {
+  padding: 1px;
+  color: white;
 }
