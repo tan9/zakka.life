@@ -14,6 +14,27 @@
   height: 80vh;
 }
 
+.fullpage {
+  position: relative;
+  height: 100vh;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: inset 0 0 100px #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fullpage.zakka {
+  background-image: url(/images/YIH_3124.jpg);
+}
+
+.fullpage.flower {
+  background-image: url(/images/YIH_3134.jpg);
+}
+
+.fullpage.affiliates {
+  background-image: url(/images/YIH_3174.jpg);
+}
+
 address {
   font-style: normal;
 }
