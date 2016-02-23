@@ -10,12 +10,12 @@
   transition: opacity 0.3s ease-out;
 }
 
-address {
-  font-style: normal;
+.parallax-container {
+  height: 80vh;
 }
 
-.parallax-container {
-  height: 100vh;
+address {
+  font-style: normal;
 }
 
 .social-icon {
