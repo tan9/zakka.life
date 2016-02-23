@@ -19,6 +19,5 @@ address {
 }
 
 .social-icon {
-  padding: 1px;
-  color: white;
+  border-radius: 10px;
 }
