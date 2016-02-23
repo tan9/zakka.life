@@ -27,15 +27,15 @@
   background-repeat: no-repeat;
 }
 
-.fullpage.zakka {
+.fullpage#zakka {
   background-image: url(/images/YIH_3124.jpg);
 }
 
-.fullpage.flower {
+.fullpage#flower {
   background-image: url(/images/YIH_3134.jpg);
 }
 
-.fullpage.affiliates {
+.fullpage#affiliates {
   background-image: url(/images/YIH_3174.jpg);
 }
 
