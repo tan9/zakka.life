@@ -27,6 +27,12 @@
   background-repeat: no-repeat;
 }
 
+.fullpage .col {
+  margin-top: 10vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+
 .fullpage#zakka {
   background-image: url(/images/YIH_3124.jpg);
 }
