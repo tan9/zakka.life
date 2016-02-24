@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (min-height: 340px) {
+@media screen and (max-height: 400px) {
   .hide-on-small-only {
     display: none;
   }
