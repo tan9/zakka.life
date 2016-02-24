@@ -42,8 +42,15 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 601px) and (min-height: 401px) {
+  .fullpage .row {
+    margin-top: 10vh;
+  }
+}
+
 .fullpage .col {
-  margin-top: 10vh;
+  margin: 1rem;
+  padding: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 1rem;
 }
@@ -58,6 +65,19 @@
 
 .fullpage#affiliates {
   background-image: url(/images/YIH_3174.jpg);
+}
+
+.fullpage .header {
+  color: white;
+}
+
+.fullpage .flow-text {
+  color: #ddd;
+  text-align: justify;
+}
+
+.divider {
+  background-color: darkgrey;  
 }
 
 address {
