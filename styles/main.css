@@ -42,9 +42,15 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 601px) and (min-height: 401px) {
+@media screen and (min-width: 601px) {
   .fullpage .row {
     margin-top: 10vh;
+  }
+}
+
+@media screen and (min-height: 340px) {
+  .hide-on-small-only {
+    display: none;
   }
 }
 
