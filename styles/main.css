@@ -11,15 +11,21 @@
 }
 
 .parallax-container {
-  height: 70vh;
+  height: 80vh;
 }
 
 .responsive-img {
   object-fit: cover;
 }
 
+#home h1 {
+  position: relative;
+  left: 20%;
+  text-shadow: 4px 4px 8px black;
+}
+
 .section.title {
-  height: 30vh;
+  height: 20vh;
 }
 
 .slogan-text {
