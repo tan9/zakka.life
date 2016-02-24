@@ -20,7 +20,8 @@
 
 #home h1 {
   position: relative;
-  left: 20%;
+  left: 8%;
+  font-size: 5.6rem;
   text-shadow: 4px 4px 8px black;
 }
 
