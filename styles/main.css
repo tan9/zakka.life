@@ -82,6 +82,14 @@
   text-align: justify;
 }
 
+.fullpage#affiliates .header {
+  display: inline-block;
+}
+
+.fullpage#affiliates .btn-floating {
+  vertical-align: sub;
+}
+
 .divider {
   background-color: darkgrey;  
 }
