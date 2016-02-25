@@ -3,10 +3,9 @@
   visibility: hidden;
 }
 
-.jf-active *, .jf-inactive * {
+.jf-active *,
+.jf-inactive * {
   -webkit-transition: opacity 0.3s ease-out;
-  -moz-transition: opacity 0.3s ease-out;
-  -o-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out;
 }
 
@@ -15,6 +14,7 @@
 }
 
 .responsive-img {
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .divider {
-  background-color: darkgrey;  
+  background-color: darkgrey;
 }
 
 address {
@@ -106,24 +106,29 @@ address {
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
 }
 
 @keyframes blink {
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes blink {
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-
-@-moz-keyframes blink {
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
