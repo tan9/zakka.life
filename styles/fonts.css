@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'LaCasita';
+  src: url('../fonts/LaCasita.eot');
+  src: local('☺'), url('../fonts/LaCasita.woff') format('woff'), url('../fonts/LaCasita.ttf') format('truetype'), url('../fonts/LaCasita.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

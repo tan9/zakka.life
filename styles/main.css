@@ -18,10 +18,13 @@
   object-fit: cover;
 }
 
-#home h1 {
+#home .logo {
   position: relative;
   left: 8%;
+  font-family: LaCasita;
   font-size: 5.6rem;
+  font-weight: normal;
+  letter-spacing: 0.8rem;
   text-shadow: 4px 4px 8px black;
 }
 
