@@ -148,27 +148,27 @@
   </footer>
 
   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-    <a href="#home" class="btn-floating btn-large tooltipped teal" data-position="left" data-tooltip="首頁">
+    <a href="#home" class="btn-floating btn-large tooltipped teal" data-position="left" data-tooltip="首頁" data-scroll>
       <i class="large material-icons">home</i>
     </a>
     <ul>
       <li>
-        <a href="#zakka" class="btn-floating tooltipped red" data-position="left" data-tooltip="生活雜貨">
+        <a href="#zakka" class="btn-floating tooltipped red" data-position="left" data-tooltip="生活雜貨" data-scroll>
           <i class="material-icons">shopping_basket</i>
         </a>
       </li>
       <li>
-        <a href="#flower" class="btn-floating tooltipped yellow darken-1" data-position="left" data-tooltip="花材、花藝">
+        <a href="#flower" class="btn-floating tooltipped yellow darken-1" data-position="left" data-tooltip="花材、花藝" data-scroll>
           <i class="material-icons">local_florist</i>
         </a>
       </li>
       <li>
-        <a href="#affiliates" class="btn-floating tooltipped green" data-position="left" data-tooltip="婚禮規劃、攝影棚">
+        <a href="#affiliates" class="btn-floating tooltipped green" data-position="left" data-tooltip="婚禮規劃、攝影棚" data-scroll>
           <i class="material-icons">favorite</i>
         </a>
       </li>
       <li>
-        <a href="#contact" class="btn-floating tooltipped blue" data-position="left" data-tooltip="聯絡資訊">
+        <a href="#contact" class="btn-floating tooltipped blue" data-position="left" data-tooltip="聯絡資訊" data-scroll>
           <i class="material-icons">location_on</i>
         </a>
       </li>
@@ -218,6 +218,11 @@
         loop: true
       });
     });
+  </script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/smooth-scroll/9.1.1/js/smooth-scroll.min.js"></script>
+  <script>
+    smoothScroll.init();
   </script>
 </body>
 </html>
