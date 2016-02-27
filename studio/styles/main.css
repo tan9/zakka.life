@@ -17,3 +17,15 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+#home .logo {
+  position: relative;
+  padding: 1.2rem;
+  padding-right: 3rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: Sunbeams;
+  font-size: 7.2rem;
+  font-weight: normal;
+  letter-spacing: 0.8rem;
+  text-shadow: 4px 4px 8px black;
+}

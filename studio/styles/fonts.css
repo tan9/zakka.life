@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Sunbeams';
+  src: url('../fonts/Sunbeams.eot');
+  src: local('☺'), url('../fonts/Sunbeams.woff') format('woff'), url('../fonts/Sunbeams.ttf') format('truetype'), url('../fonts/Sunbeams.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
