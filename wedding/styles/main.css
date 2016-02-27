@@ -9,6 +9,11 @@
   transition: opacity 0.3s ease-out;
 }
 
-body {
-  background-color: antiquewhite;
+.parallax-container {
+  height: 80vh;
+}
+
+.responsive-img {
+  -o-object-fit: cover;
+  object-fit: cover;
 }
