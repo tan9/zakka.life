@@ -10,14 +10,27 @@
 
   <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" rel="stylesheet">
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="styles/fonts.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
 </head>
 
 <body>
-  <h1 class="header">小戶沐光</h1>
 
-  <h3 class="header">網站建置中</h3>
+  <header>
+    <div class="parallax-container" id="home">
+      <div class="parallax valign-wrapper">
+        <img class="responsive-img" src="./images/YIH_3184.jpg">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="row container">
+        <div class="col m10 offset-m1 s12">
+          <h1 class="header">小戶沐光 攝影空間</h1>
+          <h4 class="header grey-text">網站建置中</h4>
+        </div>
+      </div>
+    </div>
+  </header>
   
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -27,6 +40,17 @@
 
     ga('create', 'UA-74354297-1', 'auto');
     ga('send', 'pageview');
+  </script>
+
+  <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.parallax').parallax();
+      $('.tooltipped').tooltip({
+        delay: 50
+      });
+    });
   </script>
 </body>
 </html>
