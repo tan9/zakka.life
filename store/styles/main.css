@@ -110,11 +110,6 @@ address {
   font-style: normal;
 }
 
-.social-icon {
-  color: lightgray;
-  border-radius: 10px;
-}
-
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
