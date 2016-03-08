@@ -29,3 +29,7 @@
   letter-spacing: 0.8rem;
   text-shadow: 4px 4px 8px black;
 }
+
+address {
+  font-style: normal;
+}
