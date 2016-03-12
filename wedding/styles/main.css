@@ -26,8 +26,15 @@
   padding: 0.5rem;
   padding-left: 1rem;
   height: 6rem;
+  max-height: 6rem;
+  transition: max-height 0.15s ease-out;
   text-shadow: 1px 1px 2px black;
   margin-bottom: 1rem;
+}
+
+#gallery .collapsible-header.active {
+  max-height: 4rem;
+  transition: max-height 0.25s ease-in;
 }
 
 #gallery .footnote {
