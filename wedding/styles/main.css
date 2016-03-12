@@ -43,6 +43,10 @@
   background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w2-h.jpg); 
 }
 
+#m-plus-e-is-love .collapsible-header {
+  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w3-h.jpg); 
+}
+
 address {
   font-style: normal;
 }
