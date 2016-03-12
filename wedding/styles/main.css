@@ -26,12 +26,16 @@
   padding: 0.5rem;
   padding-left: 1rem;
   height: 6rem;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 1rem;
 }
 
 #marguerite .collapsible-header {
   background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w1-h.jpg);
-  text-shadow: 1px 1px 2px black;
-  margin-bottom: 1rem;
+}
+
+#modern-chinese .collapsible-header {
+  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w2-h.jpg); 
 }
 
 address {
