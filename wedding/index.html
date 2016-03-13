@@ -446,7 +446,7 @@
       $('.collapsible').collapsible();
       
       var formUrl = 'https://docs.google.com/forms/d/1ScAho6GLfoCVLkEXFFUb1D7YMPW5NpOnF0nubdTEHTc/viewform';
-      if (platform.os.family == 'iOS') {
+      if (['Android', 'iOS', 'Windows Phone'].indexOf(platform.os.family) !== -1) {
         $('.modal-trigger').attr('href', formUrl);
       } else {
         $('#questionnaire-ifram').attr('href', formUrl + '?embedded=true');
