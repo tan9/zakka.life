@@ -43,24 +43,41 @@
 }
 
 #marguerite .collapsible-header {
-  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w1-h.jpg);
+  background: linear-gradient(
+                to right,
+                rgba(255,255,255,0),
+                rgba(255,255,255,1) 1000px),
+              url(../images/gallery/w1-h.jpg);
 }
 
 #modern-chinese .collapsible-header {
-  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w2-h.jpg); 
+  background: linear-gradient(
+                to right,
+                rgba(255,255,255,0),
+                rgba(255,255,255,1) 1000px),
+              url(../images/gallery/w2-h.jpg);
 }
 
 #m-plus-e-is-love .collapsible-header {
-  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w3-h.jpg); 
-}
+  background: linear-gradient(
+                to right,
+                rgba(255,255,255,0),
+                rgba(255,255,255,1) 1000px),
+              url(../images/gallery/w3-h.jpg);}
 
 #picnic .collapsible-header {
-  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w4-h.jpg); 
-}
+  background: linear-gradient(
+                to right,
+                rgba(255,255,255,0),
+                rgba(255,255,255,1) 1000px),
+              url(../images/gallery/w4-h.jpg);}
 
 #garden .collapsible-header {
-  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/gallery/w5-h.jpg); 
-}
+  background: linear-gradient(
+                to right,
+                rgba(255,255,255,0),
+                rgba(255,255,255,1) 1000px),
+              url(../images/gallery/w5-h.jpg);}
 
 address {
   font-style: normal;
