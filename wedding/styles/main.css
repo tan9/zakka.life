@@ -79,6 +79,11 @@
                 rgba(255,255,255,1) 1000px),
               url(../images/gallery/w5-h.jpg);}
 
+#questionnaire-modal .modal-content {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;  
+}
+
 address {
   font-style: normal;
 }
