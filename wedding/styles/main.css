@@ -42,6 +42,14 @@
   font-size: 1rem;
 }
 
+#yard-sale .collapsible-header {
+  background: linear-gradient(
+                to right,
+                rgba(255,255,255,0),
+                rgba(255,255,255,1) 1000px),
+              url(../images/gallery/w0-h.jpg);
+}
+
 #marguerite .collapsible-header {
   background: linear-gradient(
                 to right,
