@@ -87,6 +87,13 @@
                 rgba(255,255,255,1) 1000px),
               url(../images/gallery/w5-h.jpg);}
 
+#candy-bar .collapsible-header {
+  background: linear-gradient(
+                to right,
+                rgba(255,255,255,0),
+                rgba(255,255,255,1) 1000px),
+              url(../images/gallery/w6-h.jpg);}
+
 #questionnaire-modal {
   height: 100%;
 }
