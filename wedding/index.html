@@ -555,6 +555,12 @@
         $('#questionnaire-iframe').attr('src', formUrl + '?embedded=true');
         $('.modal-trigger').leanModal();
       }
+      
+      $('#gallery li').css('opacity', 0);
+      var options = [
+        {selector: '#gallery ul', offset: 100, callback: 'Materialize.showStaggeredList("#gallery ul")'}
+      ];
+      Materialize.scrollFire(options);
     });
   </script>
 </body>
