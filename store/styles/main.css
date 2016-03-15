@@ -46,6 +46,10 @@
   background-color: darkgrey;
 }
 
+.page-footer .divider {
+  background-color: rgba(51, 51, 51, 0.08);
+}
+
 address {
   font-style: normal;
 }
