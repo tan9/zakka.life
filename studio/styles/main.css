@@ -1,3 +1,7 @@
+body {
+  font-family: Microsoft JHenghei, sans-serif;
+}
+
 .jf-loading body {
   opacity: 0;
   visibility: hidden;
