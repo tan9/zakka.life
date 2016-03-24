@@ -72,35 +72,35 @@ address {
   text-shadow: 2px 2px black;
 }
 
-.social-button#facebook-link {
+.social-button.facebook-link {
   background-color: #3e5b98;
 }
 
-.social-button#facebook-link:hover {
+.social-button.facebook-link:hover {
   background-color: #5875b2;
 }
 
-.social-button#instagram-link {
+.social-button.instagram-link {
   background-color: #9c7c6e;
 }
 
-.social-button#instagram-link:hover {
+.social-button.instagram-link:hover {
   background-color: #b69688;
 }
 
-.social-button#yahoo-link {
+.social-button.yahoo-link {
   background-color: #6e2a85;
 }
 
-.social-button#yahoo-link:hover {
+.social-button.yahoo-link:hover {
   background-color: #88449f;
 }
 
-.social-button#googleplus-link {
+.social-button.googleplus-link {
   background-color: #dd4b39;
 }
 
-.social-button#googleplus-link:hover {
+.social-button.googleplus-link:hover {
   background-color: #f76553;
 }
 
